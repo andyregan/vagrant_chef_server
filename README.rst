@@ -2,10 +2,17 @@
 VagrantFile to Bootstrap Opscode Chef Server
 ============================================
 
-OS
---
+Guest OS
+--------
 
-Uses Ubuntu Precise 64
+* Ubuntu Server Precise 64 bit
+
+Requirements
+------------
+
+* Git-core
+* Vagrant
+* Virtualbox
 
 Install
 -------
@@ -18,3 +25,6 @@ After cloning, run the following commands to grab the latest cookbooks
 Then, run the following to provision the vagrant instance.
 
 * $vagrant up
+
+
+Vagrant: http://vagrantup.com/
