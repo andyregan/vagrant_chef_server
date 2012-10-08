@@ -12,9 +12,9 @@ Install
 
 After cloning, run the following commands to grab the latest cookbooks
 
-$git submodule init
-$git submodule update
+* $git submodule init
+* $git submodule update
 
 Then, run the following to provision the vagrant instance.
 
-$vagrant up
+* $vagrant up
